@@ -8,6 +8,7 @@ const newItem = () => {
         alert("You must write something!");
     } else {
         $('#list').append(li);
+        $('input:text').val('');
     }
 
     //2. Crossing out an item from the list of items:
